@@ -1,0 +1,8 @@
+Séance 2:
+
+Diagramme Use Case : C.C, D.R
+
+Diagramme de classes : *
+
+Création Dépot : A.R, V.B
+
