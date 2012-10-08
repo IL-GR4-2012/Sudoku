@@ -1,21 +1,29 @@
 Récupérer le dépot :
 
-git clone https://github.com/IL-GR4-2012/Sudoku.git #dans le répertoire
+	   #Crée un dossier contenant le dépot
+	  git clone https://github.com/IL-GR4-2012/Sudoku.git
 
-git branch nom_de_la_branche [noeud_du_père] #créé une branche (pour pas écraser sur la branche principale)
-
-git pull origin <branche> #met à jour le dépot
+	   #créé une branche (pour pas écraser sur la branche principale)
+	  git branch nom_de_la_branche [noeud_du_père]
 
 Soumettre la mise-à-jour :
+	  
+	  #optionnel si aucun fichier à rajouter
+	  git add <path_fichier>
+	  git add * #tous les fichiers
 
-git add [path_fichier] #optionnel si aucun fichier à rajouter
+	   #effectue la mise à jour en local du dépot 
+	  git commit -m "message de mise à jour"
 
-git commit -m "message de mise à jour" #effectue la mise à jour en local du dépot
-
-git push #upload le projet sur le serveur github
+	  #upload le projet sur le serveur github
+	  git push 
 
 
 Autres :
+       #permet d'afficher ce qui a été ajouté/maj/supprimé/non-ajouté
+       git status 
 
+       #enlève un fichier du dépot
+       git rm fichier_path
 
-git status #permet d'afficher ce qui a été ajouté/maj/supprimé/non-ajoutégit rm fichier_path
+       
