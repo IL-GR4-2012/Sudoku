@@ -4,6 +4,8 @@ git clone https://github.com/IL-GR4-2012/Sudoku.git #dans le répertoire
 
 git branch nom_de_la_branche [noeud_du_père] #créé une branche (pour pas écraser sur la branche principale)
 
+git pull origin <branche> #met à jour le dépot
+
 Soumettre la mise-à-jour :
 
 git add [path_fichier] #optionnel si aucun fichier à rajouter
