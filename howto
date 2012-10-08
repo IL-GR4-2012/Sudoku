@@ -16,4 +16,4 @@ git push #upload le projet sur le serveur github
 Autres :
 
 
-git status #permet d'afficher ce qui a été ajouté/maj/supprimé/non-ajouté
+git status #permet d'afficher ce qui a été ajouté/maj/supprimé/non-ajoutégit rm fichier_path
