@@ -1,0 +1,18 @@
+Récupérer le dépot :
+
+git clone https://github.com/IL-GR4-2012/Sudoku.git #dans le répertoire
+
+
+Soumettre la mise-à-jour :
+
+git add [path_fichier] #optionnel si aucun fichier à rajouter
+
+git commit -m "message de mise à jour" #effectue la mise à jour en local du dépot
+
+git push #upload le projet sur le serveur github
+
+
+Autres :
+
+
+git status #permet d'afficher ce qui a été ajouté/maj/supprimé/non-ajouté
