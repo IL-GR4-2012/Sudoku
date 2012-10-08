@@ -2,6 +2,7 @@ Récupérer le dépot :
 
 git clone https://github.com/IL-GR4-2012/Sudoku.git #dans le répertoire
 
+git branch nom_de_la_branche [noeud_du_père] #créé une branche (pour pas écraser sur la branche principale)
 
 Soumettre la mise-à-jour :
 
