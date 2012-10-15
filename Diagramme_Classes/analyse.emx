@@ -249,7 +249,15 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eyZIwRE9EeKgG9pvzN4Jwg" value="*"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eyZIwBE9EeKgG9pvzN4Jwg"/>
     </ownedAttribute>
-    <ownedOperation xmi:id="_FHuW0BE8EeKgG9pvzN4Jwg" name="genererGrilleAleatoire"/>
+    <ownedOperation xmi:id="_FHuW0BE8EeKgG9pvzN4Jwg" name="genererGrilleAleatoire">
+      <ownedParameter xmi:id="_u9Zx0BauEeK_wYlCmsoiDg" name="difficulte">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_wxT_cBauEeK_wYlCmsoiDg" name="">
+          <language></language>
+          <body></body>
+        </defaultValue>
+      </ownedParameter>
+    </ownedOperation>
     <ownedOperation xmi:id="_hc-8MBE8EeKgG9pvzN4Jwg" name="chargerGrille">
       <ownedParameter xmi:id="_kDYWsBE8EeKgG9pvzN4Jwg" name="identifiant">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
@@ -261,6 +269,21 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:id="_Xlxg4BaqEeK_wYlCmsoiDg" name="consulterStats"/>
+    <ownedOperation xmi:id="_dF_9UBasEeK_wYlCmsoiDg" name="getStatsBasiques"/>
+    <ownedOperation xmi:id="_yIeRkBasEeK_wYlCmsoiDg" name="chargerGrillePhoto"/>
+    <ownedOperation xmi:id="_fDCm4BauEeK_wYlCmsoiDg" name="genererGrilleAleatoire"/>
+    <ownedOperation xmi:id="_K9VDkBazEeK_wYlCmsoiDg" name="PublierRésultat"/>
+    <ownedOperation xmi:id="_K9VDkRazEeK_wYlCmsoiDg" name="ConnexionRéseau"/>
+    <ownedOperation xmi:id="_K9VqoBazEeK_wYlCmsoiDg" name="RécupererRésultat"/>
+    <ownedOperation xmi:id="_K9WRsBazEeK_wYlCmsoiDg" name="configurer">
+      <ownedParameter xmi:id="_K9WRsRazEeK_wYlCmsoiDg" name="ConfigSudoku">
+        <eAnnotations xmi:id="_K9WRshazEeK_wYlCmsoiDg" source="uml2.alias">
+          <details xmi:id="_K9WRsxazEeK_wYlCmsoiDg" key="conf"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_K9W4wBazEeK_wYlCmsoiDg" name="consulterConfiguration"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_qq2r4BE6EeKgG9pvzN4Jwg" name="Grille">
     <ownedAttribute xmi:id="_Goh3sBE7EeKgG9pvzN4Jwg" name="cellule" visibility="private" type="_EAQ08BE7EeKgG9pvzN4Jwg" aggregation="shared" association="_GohQoBE7EeKgG9pvzN4Jwg">
