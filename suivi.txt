@@ -5,13 +5,39 @@ D.R : Daria RYAZANTSEVA
 V.B : Vincent BOTBOL
 R.A : Romain AYRES
 
+
 Séance 2:
 
 Diagramme Use Case : C.C, D.R
 
-Diagramme de classes : *
+Diagramme de classe métier: *
 
 Création Dépot : R.A, V.B
 
 
+Séance 3:
 
+Fiches de cas détaillées + diagrammes de séquence :
+
+Consulter les stats : C.C, D.R
+Charger une grille à partir d'une photo : C.C, D.R
+Publier résultats : R.A, V.B
+Configurer : R.A, V.B
+Jouer : *
+Générer grille aléatoire : *
+Choisir une grille dans une liste pré-existante : *
+
+
+Séance 4:
+
+Mise en commun: C.C, D.R
+
+Tests de validation:
+
+Consulter les stats : C.C, D.R
+Charger une grille à partir d'une photo : C.C, D.R
+Publier résultats : R.A, V.B
+Configurer : R.A, V.B
+Jouer : *
+Générer grille aléatoire : *
+Choisir une grille dans une liste pré-existante : *
